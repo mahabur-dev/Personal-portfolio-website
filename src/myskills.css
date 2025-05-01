@@ -1,0 +1,150 @@
+ /* General Skill Section Styles */
+ .skill_pages{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+.skill_body {
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.myskill_header {
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 55px;
+}
+
+.myskill_header h2  {
+  font-size: 2rem;
+  color: #f0ecec;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+/* Full Card Container */
+.skill_full_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+/* Individual Skill Card */
+.skill_card_body {
+  width: 17%;
+  max-height: 100px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.skill_card_body:hover {
+  transform: translateY(-5px);
+}
+
+.skill_card_img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.skill_card_p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.others{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .skill_body{
+    width: 100%;
+  }
+  .skill_full_card{
+    width: 100%;
+  }
+  .skill_card_img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .skill_card_p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .myskill_header{
+    margin-left: 10px;
+  }
+  .myskill_header h2 {
+    font-size: 1.6rem;
+  }
+
+  /* .skill_full_card {
+    justify-content: center;
+  } */
+   .skill_pages{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
+   .skill_body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   }
+
+  .skill_card_img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill_card_p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .myskill_header{
+    margin-left: 25px;
+  }
+  .skill_body {
+    width: 100%;
+    padding: 0;
+  }
+
+  .myskill_header h2 {
+    font-size: 1.2rem;
+  }
+  .skill_card_body{
+    padding: 10px;
+  }
+
+  .skill_card_img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .skill_card_p {
+    font-size: 12px;
+  }
+}
+
+  
+

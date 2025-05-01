@@ -1,0 +1,147 @@
+.problem_solving_full_body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .problem_solving_header {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .problem_solving_header h1 {
+    font-size: 1.6rem;
+    color: #f0ecec;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  
+  /* Grid layout for all items */
+  .problem_solving_all_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Each problem solving item */
+  .problem_solving_item {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: transform 0.3s ease;
+    padding: 10px;
+  }
+  .problem_solving_item:hover {
+  transform: translateY(-5px);
+}
+  /* Image and platform name */
+  .problem_solving_img {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-inline: auto;
+    padding: 0;
+  }
+  
+  .problem_solving_img img {
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .problem_solving_img p {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+  }
+  
+  /* Stats body */
+  .problem_solving_body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .problem_solving_body p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+  }
+  
+  /* Link button */
+  .coding_profile {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .coding_profile a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .coding_profile a:hover {
+    background-color: #005fa3;
+  }
+  .rating{
+    margin-right: 5px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .problem_solving_header h1 {
+      font-size: 1.6rem;
+    }
+  
+    .problem_solving_body {
+      text-align: left;
+      width: 100%;
+      font-size: 20px;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .problem_solving_header h1 {
+      font-size: 1.6rem;
+    }
+  
+    .problem_solving_item {
+      padding: 10px;
+      text-align: left;
+    }
+  
+    .problem_solving_img img {
+      width: 80px;
+    }
+  
+    .coding_profile a {
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+    /* .rating{
+      margin-right: 40px;
+    } */
+     .problem_solving_body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      gap:50px
+     }
+  }
+  
+  
+ 

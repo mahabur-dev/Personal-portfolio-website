@@ -1,0 +1,168 @@
+.contract_full_body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contract_all_items{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-inline: auto;
+    color: #fff;
+    padding: 20px;
+}
+
+.contract_item{
+    width: 32%;
+    height: 130px;
+    background-color: #123458;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: transform 0.3 ease;
+    box-shadow: .5px .5px;
+    text-align: left;
+}
+.contract_item:hover{
+    transform: translateY(-5px);
+    background-color: #133e6b;
+}
+.contract{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.img{
+    width: 40px;
+    height: 30px;
+}
+.contract_name{
+   margin: 5px;
+   padding-top: 5px;
+}
+.social{
+    gap: 30px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .form_body {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  .form_header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form_header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .form_input {
+    margin-bottom: 20px;
+  }
+  
+  .form_input label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #ddd;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    transition: border 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .form_button {
+    text-align: center;
+  }
+  
+  .submit_button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit_button:hover {
+    background-color: #45a049;
+  }
+  
+
+@media(max-width:1200px){
+    .contract_all_items{
+        width: 100%;
+    }
+    .contract_item{
+        font-size: 16px;
+        width: 270px;
+    }
+
+}
+
+@media(max-width: 900px){
+    .contract_all_items{
+        width: 98%;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .contract_item{
+        font-size: 20px;
+        width: 100%;
+    }
+    
+}

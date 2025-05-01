@@ -1,0 +1,97 @@
+.about_full_page {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.about_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+.about_img img {
+  width: 400px;
+  border-radius: 10px;
+}
+.about_body {
+  background-color: #102e50;
+  padding: 15px;
+  text-align: justify;
+}
+.about_body:hover {
+  background-color: #1c3f66;
+}
+.about_details {
+  display: block;
+  width: 90%;
+}
+.about_interest {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.about_interest img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+.about_interest p {
+  width: 70%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 550;
+  color: #102e50;
+}
+.about_interest_items {
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: transform 0.3 ease;
+
+}
+
+.interest h1{
+  padding-left: 10px;
+}
+.about_interest_items:hover {
+  transform: translateY(-5px);
+}
+
+@media(max-width: 900px){
+    .about_identity{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+    }
+    .about_interest{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .about_interest_items{
+        width: 100%;
+    }
+    .about_interest_items p{
+        width: 100%;
+    }
+}
