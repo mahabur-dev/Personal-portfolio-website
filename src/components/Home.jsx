@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Home = () => {
   const [text] = useTypewriter({
-    words: ["Competiive Programmer", "FullStack Developer"],
+    words: ["Competitive Programmer", "FullStack Developer"],
     loop: true,
   });
 
