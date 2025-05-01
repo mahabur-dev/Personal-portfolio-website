@@ -38,7 +38,7 @@ const About = () => {
         </div>
 
         <div className="mt-10 mb-10 interest">
-          <h1 className="text-white text-left text-xl pl-10">Interests-----</h1>
+          <h1 className="text-white text-left text-xl pl-10">Interests</h1>
           <div className="about_interest">
             <div className="about_interest_items">
               <img src="./images/softwareEngineering.png" />

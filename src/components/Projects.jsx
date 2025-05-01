@@ -5,7 +5,7 @@ const Projects = () => {
     <div className="project_full_body">
       <div className="height_manage text-left">
         <div className="heading_fixed">
-          <h1 className="text-white text-xl text-bold">Projects-----</h1>
+          <h1 className="text-white text-xl text-bold">Projects</h1>
         </div>
         <div className="project_all_item">
           <div className="project_item">

@@ -4,7 +4,7 @@ const ProblemSolving = () => {
   return (
     <div className="problem_solving_full_body">
       <div className="problem_solving_header">
-        <h1>Problem Solving Skills-------</h1>
+        <h1>Problem Solving Skills</h1>
       </div>
       <div className="problem_solving_all_items">
         <div className="problem_solving_item">
